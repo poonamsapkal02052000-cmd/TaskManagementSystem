@@ -4,6 +4,8 @@ A role-based, full-stack task management application built with **ASP.NET Core (
 
 Organizations can manage teams, create and assign tasks, track progress (To Do → In Progress → Done), collaborate through comments, and receive notifications when tasks are assigned or their status changes.
 
+🎥 **Video walkthrough:** [Watch on Google Drive](https://drive.google.com/file/d/1HtWobUO0tyBbBr0xH23gkgM5DX-jeA6c/view?usp=sharing)
+
 ---
 
 ## Tech Stack
