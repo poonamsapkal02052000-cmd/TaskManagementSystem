@@ -191,8 +191,6 @@ All demo accounts use the password **`Password@123`**.
 | User | ravi@taskmanager.com | Ravi – Engineering |
 | User | sara@taskmanager.com | Sara – Marketing |
 
-The login page has one-click buttons to fill the Admin / Manager / User accounts.
-
 ---
 
 ## API Documentation

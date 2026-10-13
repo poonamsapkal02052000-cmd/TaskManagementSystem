@@ -246,9 +246,6 @@ tbody th { font-weight: 600; }
 .auth-page { min-height: 100vh; display: grid; place-items: center; padding: 1.5rem; background: radial-gradient(circle at top, var(--primary-soft), var(--bg) 60%); }
 .auth-card { width: min(420px, 100%); background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 2rem; box-shadow: 0 10px 30px rgba(16, 24, 40, 0.08); }
 .auth-card h1 { margin-bottom: 0.25rem; }
-.demo-box { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px dashed var(--border); }
-.demo-box p { margin: 0 0 0.5rem; }
-.demo-buttons { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1000px) {

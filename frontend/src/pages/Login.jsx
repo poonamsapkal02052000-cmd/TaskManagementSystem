@@ -4,12 +4,6 @@ import { getErrorMessage } from '../api/client';
 import { Alert } from '../components/Common';
 import { useAuth } from '../context/AuthContext';
 
-const DEMO = [
-  { role: 'Admin', email: 'admin@taskmanager.com' },
-  { role: 'Manager', email: 'manager@taskmanager.com' },
-  { role: 'User', email: 'user@taskmanager.com' }
-];
-
 export default function Login() {
   const { login, authMessage } = useAuth();
   const navigate = useNavigate();
@@ -63,18 +57,6 @@ export default function Login() {
         <p className="center">
           No account? <Link to="/register">Create one</Link>
         </p>
-
-        <div className="demo-box">
-          <p className="small muted">Demo accounts (password <code>Password@123</code>):</p>
-          <div className="demo-buttons">
-            {DEMO.map((d) => (
-              <button key={d.role} type="button" className="btn btn-ghost btn-sm"
-                onClick={() => setForm({ email: d.email, password: 'Password@123' })}>
-                {d.role}
-              </button>
-            ))}
-          </div>
-        </div>
       </form>
     </div>
   );
